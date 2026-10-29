@@ -1,0 +1,30 @@
+# Neuroimaging data
+*.nii
+*.nii.gz
+*.dtseries.nii
+*.ptseries.nii
+*.mat
+
+# Participant-level data and QC outputs
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Credentials and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Temporary files
+.DS_Store
+*.log
+*.tmp
