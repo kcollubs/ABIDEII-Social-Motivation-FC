@@ -6,7 +6,7 @@ This project investigates the relationship between resting-state functional conn
 
 ## Research Question
 
-Does functional connectivity between the nucleus accumbens (NAc) and anterior cingulate cortex (ACC), and between the insula and ACC, predict social motivation scores in children and adolescents with ASD?
+Does functional connectivity between the nucleus accumbens (NAc) and rostral anterior cingulate cortex (ACC), and between the anterior insula and dorsal ACC, predict social motivation scores in children and adolescents with ASD?
 
 ## Dataset
 
@@ -33,8 +33,8 @@ SRS Social Motivation T-score.
 
 ## Predictors
 
-- NAc–ACC functional connectivity
-- Insula–ACC functional connectivity
+- NAc–rACC functional connectivity
+- AI–dACC functional connectivity
 
 ## Covariates
 
