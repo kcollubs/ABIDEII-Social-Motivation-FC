@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "atlas": "HCP2016FreeSurferSubcortical",
+  "selection": "Literature-guided; specified before SRS association testing",
+  "rois": {
+    "NAc": {
+      "L": "ACCUMBENS_LEFT",
+      "R": "ACCUMBENS_RIGHT"
+    },
+    "rACC": {
+      "L": "L_a24_ROI",
+      "R": "R_a24_ROI"
+    },
+    "AI": {
+      "L": "L_AVI_ROI",
+      "R": "R_AVI_ROI"
+    },
+    "salience_cingulate": {
+      "L": "L_a24pr_ROI",
+      "R": "R_a24pr_ROI"
+    }
+  },
+  "pathways": {
+    "NAc_rACC": [
+      "NAc",
+      "rACC"
+    ],
+    "AI_a24pr": [
+      "AI",
+      "salience_cingulate"
+    ]
+  },
+  "hemisphere_handling": "Calculate ipsilateral connectivity separately; Fisher-transform each correlation and average across hemispheres",
+  "run_handling": "Calculate connectivity within runs; run aggregation rule pending",
+  "qc_status": "Censoring threshold, minimum retained duration, and motion covariate strategy remain unresolved",
+  "anatomical_caveat": "a24 approximates rostral/perigenual ACC; a24pr is anterior midcingulate cortex, not the entire dACC",
+  "references": {
+    "Glasser2016": "https://doi.org/10.1038/nature18933",
+    "Baker2018": "https://doi.org/10.1093/ons/opy257",
+    "Briggs2022": "https://doi.org/10.1002/brb3.2646"
+  }
+}
